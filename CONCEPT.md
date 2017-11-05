@@ -19,32 +19,32 @@ This document describes all the possible features for the jambot and some of the
     * e.g. character traits
 
 ### The Beat Detector (Input Component)
-    * Detecting the current bpm of the input (all the time)
+* Detecting the current bpm of the input (all the time)
 
 ### The Key Detector (Input Component)
-    * Detecting the current key of the song/Bar (all the time)
+* Detecting the current key of the song/Bar (all the time)
 
 ### The Song Detector (Input Component)
-    * Detecting parts of a song (via orchestrate commands)
-    * [future use case] Detecting the music style
+* Detecting parts of a song (via orchestrate commands)
+* [future use case] Detecting the music style
 
 ### The Drummer (Output Component)
-    * A Drum instrument
+* A Drum instrument
 
 ### The Bass (Output Component)
-    * A Bass intrument
+* A Bass intrument
 
 ### The Synth (Output Component)
-    * A simple lead synth instrument
+* A simple lead synth instrument
 
 ### The Voice (Output Component)
-    * A robotic voice instrument
+* A robotic voice instrument
 
 ### The Face (Output Component)
-    * The UI of the bot (fullscreen face that shows current thoughts (optional) and facial expressions based on the state of the brain)
+* The UI of the bot (fullscreen face that shows current thoughts (optional) and facial expressions based on the state of the brain)
 
 ### The Light Show (Output Component)
-    * An Arduino-based RGB LED light show based on the current beat and song.
+* An Arduino-based RGB LED light show based on the current beat and song.
 
 ## Use Cases
 

@@ -12,6 +12,7 @@ import { remote } from "electron";
 import jetpack from "fs-jetpack";
 import { greet } from "./hello_world/hello_world";
 import env from "env";
+import Brain from "./brain/brain"
 
 const app = remote.app;
 const appDir = jetpack.cwd(app.getAppPath());
@@ -33,3 +34,5 @@ document.querySelector("#author").innerHTML = manifest.author;
 document.querySelector("#env").innerHTML = env.name;
 document.querySelector("#electron-version").innerHTML =
   process.versions.electron;
+
+new Brain().init()
